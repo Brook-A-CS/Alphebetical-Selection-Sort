@@ -1,8 +1,7 @@
 var arrayOfWords = [String]()
 
 func read(_ array: inout [String]) {    
-    var line : String?
-    
+    var line : String?    
     repeat {
         line = readLine()?.lowercased()
         if line != nil {
