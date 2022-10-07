@@ -1,14 +1,10 @@
-func isCapitalized(word: String) {
-    
-}
-
 var arrayOfWords = [String]()
 
 func read(_ array: inout [String]) {    
     var line : String?
     
     repeat {
-        line = readLine()
+        line = readLine()?.lowercased()
         if line != nil {
             array.append(line!)
 //            print(line!)
